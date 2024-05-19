@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Abdalluh Al-Tamimi">
+    <meta name="description"
+        content="Frontend Developer specializing in HTML, and CSS. Transforming ideas into responsive and dynamic user interfaces. Explore my portfolio to see my latest web development projects.">
+    <meta name="keywords"
+        content="HTML5, CSS3, HTML, CSS,Frontend Developer ,Web Developer , Responsive Web Design ,User Interface Design ,Frontend Engineer,Single Page Applications">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio-Abdallah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header and nav -->
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                            viewBox="0 96 960 960" width="26">
+                            <path
+                                d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+                        </svg></a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#edu">EDUCATION</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#pro">PORJECTS</a></li>
+                <li><a href="#cont">CONTACT ME></a></li>
+            </ul>
+            <ul>
+                <li class="logo">ABDALLAH</li>
+                <li class="hideOnMobile"><a href="#home">HOME</a></li>
+                <li class="hideOnMobile"><a href="#edu">EDUCATION</a></li>
+                <li class="hideOnMobile"><a href="#skills">SKILLS</a></li>
+                <li class="hideOnMobile"><a href="#pro">PORJECTS</a></li>
+                <li class="hideOnMobile"><a href="#cont">CONTACT ME</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="26" viewBox="0 96 960 960" width="26">
+                            <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                        </svg></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home  -->
+        <section id="home">
+            <div class="home">
+                <figure>
+                    <img src="assetes/abdallah-photo.png" alt="abdallah-photo">
+                </figure>
+
+                <div class="home-info">
+                    <div class="welcom">Hello I Am</div>
+                    <div class="name">ABDALLUH FUAD AL-TAMIMI</div>
+                    <div class="job">A Frontend Developer </div>
+                    <p>Abdullah Fuad Al-Tamimi I was born in 14/7/2004 in the city of Aqaba in Jordan. <br>
+                        I study software
+                        engineering at Aqaba University of Technology <br>
+                        currently a trainee at Orange Programming Academy
+                        . </p>
+                    <div class="contact-button">
+                        <a href="mailto:abdallahtamimi54@gmail.com" class="cont-button">CONTACT</a>
+                        <div class="media-button">
+                            <a href="https://www.facebook.com/abood.tamimi.50/" target="_blank">
+                                <img src="assetes/facebook-logo.png" alt="facebook">
+                            </a>
+
+                            <a href="https://www.instagram.com/_abdullah_tamimi_/" target="_blank">
+                                <img src="assetes/instagram-logo.png" alt="instagram">
+                            </a>
+
+                            <a href="https://github.com/AFT0ZERO" target="_blank">
+                                <img src="assetes/GitHub.png" alt="github">
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/abdallah-tamimi-9855502b0/" target="_blank">
+                                <img src="assetes/linkedin-logo.png" alt="linked in ">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- education  -->
+        <section id="edu">
+            <div class="main-edu">
+                <div class="background-img">
+                    <p class="title-main-edu">EDUCATION</p>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-card-body">
+                        <figure>
+                            <img src="assetes/school.png" alt="school logo photo" class="img-fluid">
+                        </figure>
+                        <p class="edu-card-title">SCHOOL</p>
+                        <p class="edu-card-info">I Study In Khalil Alrahman Academy <br> School And I Graduated In 2022
+                        </p>
+                        <a href="https://www.facebook.com/Khalil.Al.Rahman.Academy.Aqaba?locale=ar_AR"
+                            target="_blank">SCHOOL LINK > </a>
+                    </div>
+                    <div class="edu-card-body">
+                        <figure>
+                            <img src="assetes/colage.png" alt="University logo photo" class="img-fluid">
+                        </figure>
+                        <p class="edu-card-title">UNIVERSITY</p>
+                        <p class="edu-card-info">I Study In Aqaba University Of Technology <br> In Aqaba City In Jordan
+                        </p>
+                        <a href="http://aut.edu.jo/en" target="_blank">COLLAGE LINK > </a>
+                    </div>
+                    <div class="edu-card-body">
+                        <figure>
+                            <img src="assetes/oragne 1.png" alt="oragne logo photo" class="img-fluid">
+                        </figure>
+                        <p class="edu-card-title">ORANGE ACADEMY</p>
+                        <p class="edu-card-info">I A Trainee At The Orange Programming Academy In Aqaba City In Fourth
+                            Cohort</p>
+                        <a href="https://orangecodingacademy.com/" target="_blank">ORANGE LINK > </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--skills  -->
+        <section id="skills">
+            <div class="background-img">
+                <p class="title-main-skills">SKILLES </p>
+            </div>
+            <div class="main-skills">
+                <figure>
+                    <img src="assetes/c++.png" alt="C++ logo">
+                </figure>
+                <figure>
+                    <img src="assetes/python.png" alt="Python logo">
+                </figure>
+                <figure>
+                    <img src="assetes/html.png" alt="HTML logo">
+                </figure>
+                <figure>
+                    <img src="assetes/css.png" alt="css logo">
+                </figure>
+                <figure>
+                    <img src="assetes/bootstrab.png" alt="bootstrab logo">
+                </figure>
+                <figure>
+                    <img src="assetes/figma (1).png" alt="figma logo">
+                </figure>
+                <figure>
+                    <img src="assetes/security.png" alt="cyber security ">
+                </figure>
+                <figure>
+                    <img src="assetes/ccna.png" alt="HTML logo">
+                </figure>
+            </div>
+        </section>
+
+        <!-- projects -->
+        <section id="pro">
+            <div class="background-img">
+                <p class="title-main-projects">PORJECTS</p>
+            </div>
+            <div class="main-projects">
+                <div class="projects-card-info">
+                    <p class="projects-card-title"> FIGMA</p>
+                    <a href="https://www.figma.com/design/XZWo1SI1CHUXRJHtZDg5ZS/project1?node-id=0-1&t=w4oi7V7lDJ8uzta5-0"
+                        target="_blank">Figma Link >></a>
+                    <div>
+                        <img src="assetes/figma-project.png" alt="figma projet photo" class="img-fluid ms-2">
+                    </div>
+                </div>
+                <div class="projects-card-info">
+                    <p class="projects-card-title">WEBSITE</p>
+                    <a href="https://github.com/AFT0ZERO/recipe-page.git" target="_blank">Github Link >></a>
+                    <div>
+                        <img src="assetes/frontend-mentor (Custom).jpg" alt="figma projet photo" class="img-fluid ms-2">
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer id="cont">
+        <hr class="line2">
+        <p class="title-footer">let's Work Together</p>
+        <div class="main-contact-footer">
+            <div class="contact-footer-title">
+                <div>EMAIL :</div>
+                <div>PHONE :</div>
+                <div>ADDRESS :</div>
+            </div>
+            <div class="contact-footer-info">
+                <div>abdallahtamimi54@gmail.com</div>
+                <div>+962791580267</div>
+                <div>Jordan-Aqaba</div>
+            </div>
+        </div>
+        <div class="media-button-footer">
+            <a href="https://www.facebook.com/abood.tamimi.50/" target="_blank">
+                <img src="assetes/facebook-logo.png" alt="facebook">
+            </a>
+
+            <a href="https://www.instagram.com/_abdullah_tamimi_/" target="_blank">
+                <img src="assetes/instagram-logo.png" alt="instagram">
+            </a>
+
+            <a href="https://github.com/AFT0ZERO" target="_blank">
+                <img src="assetes/GitHub.png" alt="github">
+            </a>
+
+            <a href="https://www.linkedin.com/in/abdallah-tamimi-9855502b0/" target="_blank">
+                <img src="assetes/linkedin-logo.png" alt="linked in ">
+            </a>
+        </div>
+    </footer>
+
+    <!-- <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script> -->
+</body>
+
+</html>
