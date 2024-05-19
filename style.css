@@ -59,6 +59,7 @@
     align-items: center;
     color: var(--orange);
     border-radius: 36px;
+    transition-duration: 0.3s;
   }
   nav a:hover{
     color: #3693FF;
@@ -159,6 +160,7 @@
     text-align: center;
     line-height: 50px;
     text-decoration: none;
+    transition-duration: 0.3s;
   }
 
   .media-button
@@ -173,8 +175,10 @@
     background-color: var(--blue); 
     box-shadow: 1px 3px 25px 1px var(--orange);
   }
+ 
   .media-button img:hover
   {
+    transition-duration: 0.3s;
     border-radius: 100%;
     box-shadow: 1px 3px 25px 1px var(--blue);
     width: 60px;
@@ -216,6 +220,7 @@
     /* width: 379px; */
     height: 700px;
     border-radius: 47px;
+    transition-duration: 0.3s;
 
 }
 .edu-card div:hover
@@ -252,6 +257,7 @@
     text-decoration: none;
     text-align: center;
     line-height: 50px;
+    transition-duration: 0.3s;
   }
   .edu-card a:hover
   {
@@ -287,6 +293,7 @@
     width: 295px;
     height: 329px;
     border-radius: 50px;
+    transition-duration: 0.3s;
   }
   .main-skills figure:hover
   {
@@ -339,6 +346,7 @@
     text-decoration: none;
     text-align: center;
     line-height: 50px;
+    transition-duration: 0.3s;
   }
   
   .projects-card-info a:hover
