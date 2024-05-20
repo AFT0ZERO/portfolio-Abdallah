@@ -22,7 +22,7 @@
     background-image: var(--gradient);
     width: 100%;
   }
- 
+  
   
   .background-img
   {
@@ -98,7 +98,7 @@
   .menu-button{
     display: none;
   }
-  @media(max-width: 800px){
+  @media(max-width: 800px ){
     .hideOnMobile{
       display: none;
     }
@@ -146,28 +146,7 @@
     padding-bottom: 10px;
     
   }
-  @media (max-width : 440px)
-  {
-    .welcom
-    {
-      font-size:40px ;
-      padding-left: 20px;
-    }
-    .name
-    {
-      font-size: 50px;
-      padding-left: 20px;
-    }
-    .job
-    {
-      font-size: 25px;
-      padding-left: 20px;
-    }
-    .home-info p 
-    {
-      padding-left: 20px;
-    }
-  }
+  
   .contact-button
   {
     display: flex;
@@ -451,3 +430,46 @@
 
   /* footer end */
 
+  /* media */
+  @media (max-width : 440px)
+  {
+    .welcom
+    {
+      font-size:40px ;
+      padding-left: 20px;
+      text-align: center;
+    }
+    .name
+    {
+      font-size: 50px;
+      padding-left: 20px;
+      text-align: center;
+    }
+    .job
+    {
+      font-size: 25px;
+      padding-left: 20px;
+      text-align: center;
+    }
+    .home-info p 
+    {
+      padding-left: 20px;
+      text-align: center;
+    }
+    .title-footer
+  {
+   
+    font-size: 35px;
+    
+  }
+  .edu-card-title
+  {
+      font-size: 30px;
+  }
+  .edu-card-info
+  {
+      font-size: 15px;
+      text-align: center;
+  }
+   
+  }
